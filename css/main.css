@@ -135,7 +135,7 @@ a {
     left: 400px;
     right: 0;
     margin: auto;
-    text-shadow: 15px 15px 10px #ccc;
+    text-shadow: 3px 3px 10px #ccc;
     transform: rotate(-5deg);
 }
 
@@ -438,7 +438,7 @@ a {
 #project_1 .list>h1 {
     color: #ffc508;
     text-shadow: 3px 5px 4px red;
-    background: linear-gradient(to bottom, #ff0000, #000000);
+    background: linear-gradient(to bottom, hotpink, #1b1b1b);
     border-radius: 15px 15px 0 0;
     padding-left: 30px;
     padding-bottom: 10px;
@@ -449,9 +449,9 @@ a {
     display: inline-block;
     width: 350px;
     height: 500px;
-    border: 3px solid #ffc508;
+    border: 3px solid hotpink;
     border-radius: 5px;
-    box-shadow: 5px 5px 20px red;
+    box-shadow: 1px 1px 10px #1b1b1b;
     box-sizing: border-box;
     overflow: hidden;
     margin: 40px 20px 0 50px;
