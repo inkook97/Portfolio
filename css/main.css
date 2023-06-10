@@ -331,6 +331,7 @@ a {
     margin-top: 40px;
     padding: 20px 0 10px 0;
     box-sizing: border-box;
+     position: relative;
 }
 
 .icon_box>li {
@@ -339,7 +340,9 @@ a {
     justify-content: space-around;
     position: relative;
     font-weight: bold;
+    cursor: pointer;
 }
+
 
 .icon_box>li>.icon_text1 {
     position: absolute;
@@ -381,6 +384,28 @@ a {
     width: 60px;
     height: 60px;
 }
+
+
+.tooltip {
+    width: 290px;
+    position: absolute;
+    left: -100px;
+    top: -15px;
+    background: #646FD4;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+
+.icon_box>li:hover .tooltip {
+    display: block;
+    z-index: 999;
+}
+
+
 
 #q_mn {
     position: absolute;
@@ -482,9 +507,18 @@ a {
     padding-top: 15px;
 }
 
+#project_1 .list>ul>.list_none:hover {
+    transform: none;
+}
+
 #project_1 .list>ul>li>a>img {
     width: 350px;
     height: 500px;
+}
+
+#project_1 .list>ul>li:hover {
+    transform: translateY(-5%);
+    transition: 0.5s;
 }
 
 .end_title {
